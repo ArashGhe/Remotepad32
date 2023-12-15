@@ -1,5 +1,5 @@
 # Remotepad32
-PC controlled remote gamepad (Xbox Controller) for assistive access to consoles. 
+PC controlled remote gamepad (Xbox Controller) for assistive access to consoles. It fills the gap on consoles that lack the Remote Play features of PS5/Xbox. With a Blueretro adapter you can control all the famous retro consoles from Nintendo, Sega and Sony with the assistive softwares on your pc! https://www.blue-retro.com/products/
 
 # Instructions
 1. You need an ESP32 microcontroller and I would recommend the Adafruit Feather ESP32 and to follow the Adafruit tutorial on how to set it up with the Arduino IDE Software that will make it possible to upload my code to your board.
@@ -13,7 +13,9 @@ PC controlled remote gamepad (Xbox Controller) for assistive access to consoles.
 9. The Serious Serial software window must be in focus at all times and pressing the relevant keyboard keys now will trigger actions on your console.  Arrow keys are left Joystick movements, IJKL keys are right Joystick movements and WASD is D-pad and ZVRX are the ABXY gamepad buttons. You will find the documentation for all keys within the Arduino code and of course you can easily remap everything by swapping the letter keys with other letter keys (1_2_3_4 numbers represent arrow keys and they're reserved for Left Joystick movements so you can't use those number keys, probably avoid numbers completely). Copy the code before any edits so you can revert if anything breaks..
 
 # Use cases
-The Serious Serial software also recognize key presses from Project Iris, VoiceAttack, Mill Mouse, Alt Controller and other assistive software thus making these available for console gaming. Xbox and PS4/5 users have Remote Play which can do the same thing and also offers display mirroring. But my solution can be used with almost any retro console thanks to the Blueretro Adapter which you can buy online. I'm yet to get this to pair with Nintendo Switch though, it needs an adapter for connecting Xbox Controllers but without the large Xbox button it's difficult to get it to pair. To get your console content displayed on your pc monitor you need an HDMI USB Capture Card for your PC and the free software OBS Studio. 
+The Serious Serial software also recognize key presses from Project Iris, VoiceAttack, Mill Mouse, Alt Controller and other assistive software thus making these available for console gaming. Xbox and PS4/5 users have Remote Play which can do the same thing and also offers display mirroring. But my solution can be used with almost any retro console thanks to the Blueretro Adapter which you can buy online. 
+https://www.blue-retro.com/products/
+I'm yet to get this to pair with Nintendo Switch though, it needs an adapter for connecting Xbox Controllers but without the large Xbox button it's difficult to get it to pair. To get your console content displayed on your pc monitor you need an HDMI USB Capture Card for your PC and the free software OBS Studio. 
 
 # Further development 
 This is open source so any new versions that can better work with Nintendo Switch is highly welcome. Feel free to edit and Improve. On the Serious Serial software side it would also be nice to get it to capture keys even while not in focus. The Processing java code is available on the Github page for serious serial so anyone wanting to have a go with improvements can edit it. 
