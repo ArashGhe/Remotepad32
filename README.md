@@ -1,5 +1,5 @@
 # Remotepad32
-PC controlled remote gamepad (Xbox Controller) for assistive access to consoles. It fills the gap on consoles that lack the Remote Play features of PS5/Xbox. With a Blueretro adapter you can control all the famous retro consoles from Nintendo, Sega and Sony with the assistive softwares on your pc! https://www.blue-retro.com/products/
+PC controlled remote gamepad (Xbox Controller) for assistive access to consoles. It fills the gap on consoles that lack the Remote Play features of PS5/Xbox. With this + a Blueretro adapter you can control all the famous retro consoles from Nintendo, Sega and Sony with the assistive softwares on your pc! https://www.blue-retro.com/products/
 
 # Instructions
 1. You need an ESP32 microcontroller and I would recommend the Adafruit Feather ESP32 and to follow the Adafruit tutorial on how to set it up with the Arduino IDE Software that will make it possible to upload my code to your board.
